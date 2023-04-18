@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: hsl(221, 100%, 96%);
+}
+
+.shadow {
+    color: hsl(241, 100%, 89%);
+}
+
+.shadow p {
+    font-size: 18px;
+}
+
+.whiter {
+    color: hsl(221, 100%, 96%);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    margin: 10rem auto;
+    width: 600px;
+    height: 460px;
+    border-radius: 20px;
+}
+
+.card-1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    width: 300px;
+    height: 460px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+}
+
+.card-1 h1 {
+    font-size: 50px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.card-2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.retangle-1 {
+    margin: 1rem 0;
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(0, 37%, 96%);
+}
+
+.text-img {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.bolt,
+.fa-bolt {
+    color: hsl(0, 100%, 67%);
+}
+
+.retangle-2 {
+    margin: 1rem 0;
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(39, 85%, 95%);
+}
+
+.brain,
+.fa-brain {
+    color: hsl(39, 100%, 56%);
+}
+
+.retangle-3 {
+    margin: 1rem 0;
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(164, 73%, 97%);
+}
+
+.comment,
+.fa-comment {
+    color: hsl(166, 100%, 37%);
+}
+
+.retangle-4 {
+    margin: 1rem 0;
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(240, 100%, 97%);
+}
+
+.eye,
+.fa-eye {
+    color: hsl(234, 85%, 45%);
+}
+
+.buttom {
+    margin: 2rem 0;
+    padding: .8rem;
+    justify-content: center;
+    width: 100%;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+.buttom:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        margin: 0 auto;
+        width: 300px;
+        flex-direction: column;
+
+    }
+
+    .card-1 {
+        padding: .8rem;
+        height: 300px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        margin: .5rem auto;
+    }
+
+    .card-2 {
+        padding: .8rem;
+    }
+
+    .buttom {
+        margin: .5rem auto;
+    }
+
+    .title {
+        margin: .5rem;
+    }
+}
